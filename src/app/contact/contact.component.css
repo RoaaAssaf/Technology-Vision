@@ -1,0 +1,45 @@
+.full-page-background {
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQBCwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAACAwEABwb/xAAaEAEBAQEBAQEAAAAAAAAAAAAAAQIRITFB/8QAGQEBAQEBAQEAAAAAAAAAAAAAAQACBAMF/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwD6TjuHYyx9jXx8To1SwbDqTsGqWDYQkNitgWEVOwLFaFhSVg1TUHjUSWmWHoaknYnYrRsaiTsHh2MsJidCq0LAU2U+DYYgc2sJFnGsQZx3GsSZXOrkXOc5JrHVxT7qwbFbB440nRsUsZZxBKwLFaNIxKwbFLBsalWJ2J2K2DYRUrAsV1B4UjYNiuk60E7BsUoUkOBYpYNhSdg2HQqIWDTsHhQWeMOwaSPBpjSmMazgTOObYziLHOcQ5zmJPQbBsUsGxxnE7BsVsGxJGwbFbAsSTsGxSwLCErAqtgWNQJ2BYrYFhCVgWK6gWNBKwbFKNKSo2KULCU7B1FLAsMSdjOHRvhIUbDomEKNOhYUxzeMqTmNYCxhMKY5rAHotgWK2DY4207Aqlg2EJUeK2BYglRsUsGoJULFrA1GpUlYFUsGxoVLUDUV1ApZSsCxWwK1pSsCxWwLCtTo6Us8ClJ0KpR/Cgo06NMIUbDooiwhqQtc5JjmsSZWNck9IsGxSjY43olYNitgWIJ2BpWwbCylYFitg2JI0bFLBpCOoFit9DUagqdiditgahZSsGxSwKSlYNilGtaEtDToWE6nRqlClBQOjxqIGEypoaJViQ1jWVJjmsScxrEnpg2KWDY43onYNimgqCeoFimhqCdgVWhSEtBVdROxJOwNK2BY1KzUqFimoFITsCxShY0E7E6rYGik7AsUsGxpJWDYrU9QlOwadClBWUrBsJ0aytsZUtB1bxiLOOaxJlc5yL06wadY4nonYNitCkYnYFU0FiAWJ6ilGkVKwKrYGoglYOodDRCWgsU0FjUCegqtTrQToWKWBSAvwLFNJ1EKFOjfjST1Bp0KYhsCmNJDjKVGlDxhDxFjuNYkyxnDYk9OrCouJ7jRsKsqZTo1SwNQhLQ2KUKgnQ0pQ0WalQ1FLAqSWoGldBqNxmpUKpQ1CE7AqtidIT0FitClJWBYpQpIVOqaCtRDRp0aSF+DYdGmIHVrKiNYTEmM61hT1KjTsGuB7hYNOhTBQ0NOjSynYFUo1BKhpSwdFmo6CxXUDUSTqdVqdagsT0npWwLGmUtBVdBYUlQqlgWEBU7FdQLGklYNilCkxMTo1IKNMa1ELKQpMY1yIsNhL1CsrHPnx0MoVzmozRoac4shRrnIBRrnFmp6CuckFT01xgT0npzmmaFCucUGg05zSCjY5xA2BWOMUCjXOJCjWuaUGsa5FlFzkmu45yT//2Q==');
+    background-size: cover; 
+    background-repeat: no-repeat; /* تمنع تكرار الصورة */
+    background-position:center; 
+    width: 100vw; /* تغطية العرض الكامل للشاشة */
+    height: 100vh; /* تغطية الارتفاع الكامل للشاشة */
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    
+  }
+
+  .icon-container {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 300px; 
+  }
+  
+  .icon-container a {
+    margin: 0 15px; 
+    font-size: 80px; 
+    color: #000; 
+   
+  }
+  
+  .icon-container a:hover {
+    color: #007bff; /* تغيير اللون عند التمرير */
+  }
+
+  .thank-you-message {
+  text-align: center;
+  font-size: 24px; 
+  color: #068af7; 
+  margin-top: 30px; 
+  padding: 20px; 
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s; 
+}
+
+.thank-you-message:hover {
+  transform: scale(1.05); 
+}

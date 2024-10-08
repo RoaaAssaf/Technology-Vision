@@ -1,0 +1,69 @@
+.full-page-background {
+  background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQBCwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAACAwEABwb/xAAaEAEBAQEBAQEAAAAAAAAAAAAAAQIRITFB/8QAGQEBAQEBAQEAAAAAAAAAAAAAAQACBAMF/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwD6TjuHYyx9jXx8To1SwbDqTsGqWDYQkNitgWEVOwLFaFhSVg1TUHjUSWmWHoaknYnYrRsaiTsHh2MsJidCq0LAU2U+DYYgc2sJFnGsQZx3GsSZXOrkXOc5JrHVxT7qwbFbB440nRsUsZZxBKwLFaNIxKwbFLBsalWJ2J2K2DYRUrAsV1B4UjYNiuk60E7BsUoUkOBYpYNhSdg2HQqIWDTsHhQWeMOwaSPBpjSmMazgTOObYziLHOcQ5zmJPQbBsUsGxxnE7BsVsGxJGwbFbAsSTsGxSwLCErAqtgWNQJ2BYrYFhCVgWK6gWNBKwbFKNKSo2KULCU7B1FLAsMSdjOHRvhIUbDomEKNOhYUxzeMqTmNYCxhMKY5rAHotgWK2DY4207Aqlg2EJUeK2BYglRsUsGoJULFrA1GpUlYFUsGxoVLUDUV1ApZSsCxWwK1pSsCxWwLCtTo6Us8ClJ0KpR/Cgo06NMIUbDooiwhqQtc5JjmsSZWNck9IsGxSjY43olYNitgWIJ2BpWwbCylYFitg2JI0bFLBpCOoFit9DUagqdiditgahZSsGxSwKSlYNilGtaEtDToWE6nRqlClBQOjxqIGEypoaJViQ1jWVJjmsScxrEnpg2KWDY43onYNimgqCeoFimhqCdgVWhSEtBVdROxJOwNK2BY1KzUqFimoFITsCxShY0E7E6rYGik7AsUsGxpJWDYrU9QlOwadClBWUrBsJ0aytsZUtB1bxiLOOaxJlc5yL06wadY4nonYNitCkYnYFU0FiAWJ6ilGkVKwKrYGoglYOodDRCWgsU0FjUCegqtTrQToWKWBSAvwLFNJ1EKFOjfjST1Bp0KYhsCmNJDjKVGlDxhDxFjuNYkyxnDYk9OrCouJ7jRsKsqZTo1SwNQhLQ2KUKgnQ0pQ0WalQ1FLAqSWoGldBqNxmpUKpQ1CE7AqtidIT0FitClJWBYpQpIVOqaCtRDRp0aSF+DYdGmIHVrKiNYTEmM61hT1KjTsGuB7hYNOhTBQ0NOjSynYFUo1BKhpSwdFmo6CxXUDUSTqdVqdagsT0npWwLGmUtBVdBYUlQqlgWEBU7FdQLGklYNilCkxMTo1IKNMa1ELKQpMY1yIsNhL1CsrHPnx0MoVzmozRoac4shRrnIBRrnFmp6CuckFT01xgT0npzmmaFCucUGg05zSCjY5xA2BWOMUCjXOJCjWuaUGsa5FlFzkmu45yT//2Q==');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position:center; 
+  width: 100vw; 
+  height: 100vh; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  
+}
+
+
+.ourvision-content {
+    padding: 2rem;
+    text-align: left;
+
+   
+}
+
+.ourvision-content h1 {
+    font-size: 32px;
+    color:rgba(2, 22, 110, 0.692) ;
+}
+
+.ourvision-content p {
+    font-size: 2rem;
+    color: #000000;
+}
+
+
+.ourvision-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px; 
+    flex-direction: row-reverse; 
+  }
+  
+
+  .image-container {
+    flex: 6; 
+    max-width: 50%; 
+    margin-top: 10%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto; 
+    border-radius: 8px; 
+  }
+  
+ 
+  .content-container {
+    flex: 1;
+    padding-right: 20px; 
+    text-align: left; 
+  }
+  
+  .content-container h1 {
+    font-size: 2rem; 
+    margin-bottom: 10px; 
+  }
+  
+  .content-container p {
+    font-size: 1rem; 
+    line-height: 1.6; 
+  }
